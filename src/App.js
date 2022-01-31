@@ -20,7 +20,7 @@ function App() {
 
   const getCryptoData = async () => {
 
-    const url = "https://api.coinstats.app/public/v1/coins?skip=0&limit=19"
+    const url = "https://api.coinstats.app/public/v1/coins?skip=0&limit=100"
 
     const res = await fetch(url)
     const data = await res.json()
